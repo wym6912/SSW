@@ -2,7 +2,7 @@
 // Created by Wan-Ping Lee
 // Last revision by Mengyao Zhao on 2017-05-30
 
-#include "ssw_cpp.h"
+#include "ssw_cpp.hpp"
 #include "ssw.h"
 
 #include <sstream>

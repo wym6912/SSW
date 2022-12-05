@@ -1,4 +1,25 @@
-# SSW Library
+# Modified by wym6912
+
+This SSW library is only in C/C++ mode, but it can be used in Windows and Linux platforms.
+
+Contact:
+* wym6912 <wym6912@outlook.com>
+
+### Install the software
+
+1. Download the software by git clone `git clone wym6912/SSW`.
+2. `cd src`
+3. `make -j4`
+4. The executable file will be `ssw_test`.
+5. If you want to debug this program, please make it by `make -j4 DEBUG=1`.
+
+### Windows usage
+
+Use it in Windows in Visual Studio 2022.
+
+Open `SSW_Library.sln`, you will see four projects: `SSW_Library_C`, `SSW_Library_Cpp`, `SSW_test_C` and `SSW_test_Cpp`. You can use first two libraries in your VS project by including them.
+
+# Raw SSW Library README
 
 ## An SIMD Smith-Waterman C/C++/Python/Java/R Library for Use in Genomic Applications
 

@@ -11,7 +11,7 @@
 #include <iostream>
 #include <string.h>
 
-#include "ssw_cpp.h"
+#include "ssw_cpp.hpp"
 
 using std::string;
 using std::cout;
