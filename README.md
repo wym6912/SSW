@@ -7,7 +7,7 @@ Contact:
 
 ### Install the software
 
-1. Download the software by git clone `git clone wym6912/SSW`.
+1. Download the software by git clone `git clone https://github.com/wym6912/SSW.git`.
 2. `cd src`
 3. `make -j4`
 4. The executable file will be `ssw_test`.
