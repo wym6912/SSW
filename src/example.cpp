@@ -5,13 +5,13 @@
 // 1) g++ -Wall ssw_cpp.cpp ssw.c example.cpp
 // 2) ./a.out
 // Created by Wan-Ping Lee on 09/04/12.
-// Last revision by Mengyao Zhao on 2017-06-05
+// Last revision by Mengyao Zhao on 2023-Apr-21
 // ==========================
 
 #include <iostream>
 #include <string.h>
 
-#include "ssw_cpp.hpp"
+#include "ssw_cpp.h"
 
 using std::string;
 using std::cout;
@@ -24,8 +24,6 @@ int main() {
   const string query = "CTGAGCCGGTAAATC";
   int32_t maskLen = strlen(query.c_str())/2;
   maskLen = maskLen < 15 ? 15 : maskLen;
-  //const string ref   = "CCGTTTATCGCA";
-  //const string query = "CCTTTTATCGCA";
 
   // Declares a default Aligner
   StripedSmithWaterman::Aligner aligner;
